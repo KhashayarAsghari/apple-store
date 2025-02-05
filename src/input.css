@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .font-prm-50 {
+    @apply text-[17px] font-bold leading-6;
+  }
+
+  .container {
+    @apply max-w-screen-xl mx-auto;
+  }
+}
