@@ -176,11 +176,18 @@
 
     <!-- slider -->
     <div
-      class="flex items-center justify-center max-w-[1500px] mx-auto overflow-hidden"
+      class="relative flex items-center justify-center max-w-[1500px] mx-auto overflow-hidden"
     >
       <img src="./assets/images/slider/right.png" alt="" />
       <img src="./assets/images/slider/img1.png" alt="" />
       <img src="./assets/images/slider/left.png" alt="" />
+
+      <div class="absolute -translate-x-1/2 left-1/2 bottom-0 flex gap-1.5">
+        <div class="w-4 h-4 rounded-full bg-grayscale-500"></div>
+        <div class="w-4 h-4 rounded-full bg-grayscale-500"></div>
+        <div class="w-4 h-4 rounded-full bg-grayscale-500"></div>
+        <div class="w-4 h-4 rounded-full bg-prm-500"></div>
+      </div>
     </div>
   </body>
 </html>
