@@ -10,6 +10,9 @@ module.exports = {
         prm: {
           500: "#FF510C",
         },
+        grayscale: {
+          500: "#A6A6A6"
+        }
       },
     },
   },
