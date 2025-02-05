@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         prm: {
+          200: "#FFF1EB",
           500: "#FF510C",
         },
         grayscale: {
